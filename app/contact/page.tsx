@@ -16,18 +16,33 @@ export default function ContactPage() {
     async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
         setStatus('loading')
-        const formData = new FormData(e.currentTarget)
-        const data = Object.fromEntries(formData)
+
+        // Captura os valores de forma explícita
+        const form = e.currentTarget
+        const name = (form.elements.namedItem('name') as HTMLInputElement).value
+        const email = (form.elements.namedItem('email') as HTMLInputElement).value
+        const message = (form.elements.namedItem('message') as HTMLTextAreaElement).value
 
         try {
             const res = await fetch('/api/contact', {
                 method: 'POST',
-                body: JSON.stringify(data),
+                body: JSON.stringify({ name, email, message }), // Corpo bem definido
                 headers: { 'Content-Type': 'application/json' }
             })
-            if (res.ok) setStatus('success')
-            else setStatus('error')
+
+            if (res.ok) {
+                setStatus('success')
+                form.reset() // Limpa o formulário após o sucesso
+
+                // Opcional: Volta ao estado 'idle' após 5 segundos para permitir novo envio
+                setTimeout(() => setStatus('idle'), 5000)
+            } else {
+                const errorData = await res.json()
+                console.error("Erro na API:", errorData.error)
+                setStatus('error')
+            }
         } catch (error) {
+            console.error("Erro ao enviar:", error)
             setStatus('error')
         }
     }

@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { LanguageProvider } from "@/context/LanguageContext";
 import { Navbar } from "@/components/navbar";
-
+import { Analytics } from "@vercel/analytics/next"
 const geistSans = Geist({
     variable: "--font-geist-sans",
     subsets: ["latin"],
@@ -80,6 +80,7 @@ export default function RootLayout({
                 {/* O Footer foi removido daqui para aparecer só na Home */}
             </LanguageProvider>
         </ThemeProvider>
+        <Analytics />
         </body>
         </html>
     );
