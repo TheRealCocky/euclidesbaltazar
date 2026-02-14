@@ -19,7 +19,7 @@ export default function ProjectsPage() {
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098699/Screen_Shot_2026-02-14_at_20.51.04_epi69w.png", // Adiciona as fotos nesta rota
             tech: ["Next.js", "NestJS", "Gemini API", "MongoDB"],
-            links: { github: "https://github.com/TheRealCocky/AngoIA", demo: "https://angoia.com" }
+            links: { github: "https://github.com/TheRealCocky/AngoIA", demo: "https://angoia.vercel.app/" }
         },
         {
             title: "Nonhande",
@@ -41,7 +41,7 @@ export default function ProjectsPage() {
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098924/Screen_Shot_2026-02-14_at_20.54.52_tabzku.png",
             tech: ["Next.js", "NestJS", "Prisma", "Socket.io"],
-            links: { github: "https://github.com/TheRealCocky/Leilao-client", demo: "https://github.com/euclidesbaltazar/leilao-frontend" }
+            links: { github: "https://github.com/TheRealCocky/Leilao-client", demo: "https://leilaoapp.vercel.app/" }
         },
         {
             title: "StreamSentra",
