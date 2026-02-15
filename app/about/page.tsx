@@ -18,7 +18,7 @@ export default function AboutPage() {
             skillsTitle: "Technical Stack",
             schools: [
                 {
-                    name: "Institute Polytechnic Katangoji (ISP)",
+                    name: "Institute Polytechnic Katangoji (ISPK)",
                     degree: "BSc in Computer Engineering",
                     date: "Expected July 2026"
                 },
