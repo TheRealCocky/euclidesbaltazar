@@ -66,7 +66,7 @@ export default function HomePage() {
                             </h1>
                             <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400 font-light max-w-2xl">
                                 {content.role} <span className="mx-2 text-zinc-300">|</span>
-                                <span className="text-sm md:text-lg font-mono text-zinc-500"> React • Next.js • Node.js • NestJS • TypeScript • MongoDB • PostgreSQL • AWS</span>
+                                <span className="text-sm md:text-lg font-mono text-zinc-500"> React • Next.js • Node.js • NestJS • TypeScript • MongoDB • PostgreSQL • Prisma • AWS</span>
                             </p>
                         </div>
 
