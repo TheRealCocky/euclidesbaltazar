@@ -58,7 +58,7 @@ export default function AboutPage() {
     const skillCategories = [
         { name: "Backend", items: ["NestJS", "Node.js", "Fastify", "C# / ASP.NET Core"] },
         { name: "Frontend", items: ["Next.js", "Vite + React", "TypeScript", "TailwindCSS", "Figma"] },
-        { name: "Database", items: ["MongoDB", "PostgreSQL", "Database Admin"] },
+        { name: "Database", items: ["MongoDB", "PostgreSQL","Prisma", "Database Admin"] },
         { name: "DevOps", items: ["AWS", "Vercel", "Render", "Docker", "CI/CD", "GitHub Actions"] },
     ]
 

@@ -51,7 +51,7 @@ export default function ProjectsPage() {
                 pt: "Gestão segura de streaming de vídeo com Kafka e Cloudinary."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771099058/Screen_Shot_2026-02-14_at_20.56.53_bpkfkf.png",
-            tech: ["NestJS", "Kafka", "Cloudinary", "Prisma"],
+            tech: ["Next.js","NestJS", "Kafka", "Cloudinary", "Prisma"],
             links: { github: "https://github.com/TheRealCocky/stremaforge-client", demo: "https://streamsentra.vercel.app/" }
         },
         {
