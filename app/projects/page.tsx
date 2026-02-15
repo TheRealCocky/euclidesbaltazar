@@ -29,7 +29,7 @@ export default function ProjectsPage() {
                 pt: "Plataforma de preservação digital para a língua Nhaneca-Humbe."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098165/Screen_Shot_2026-02-14_at_20.41.59_ku9zqp.png",
-            tech: ["Next.js", "NestJS", "MongoDB", "Tailwind"],
+            tech: ["Next.js", "NestJS", "MongoDB", "Tailwind", "Vercel", "Render", "SupaBase", "AWS"],
             links: { github: "https://github.com/TheRealCocky/nonhande-client", demo: "https://nonhande.vercel.app/" }
         },
         {
