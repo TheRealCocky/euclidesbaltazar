@@ -9,7 +9,7 @@ export default function AboutPage() {
     const t = {
         en: {
             greeting: "Engineering with purpose.",
-            bio: "I am a final-year Computer Engineering student at ISP Katangonji, specializing in full-stack development with a focus on building digital products with real social impact.",
+            bio: "I am a final-year Computer Engineering student at ISP Katangoji, specializing in full-stack development with a focus on building digital products with real social impact.",
             projectStart: "Currently, I am developing ",
             projectLink: "Nonhande",
             projectEnd: ", a digital preservation platform for the Nhaneca-Humbe language, where I apply Next.js, NestJS, Vercel, Render and MongoDB to transform complex ethnolinguistic data into scalable digital experiences.",
@@ -31,7 +31,7 @@ export default function AboutPage() {
         },
         pt: {
             greeting: "Engenharia com propósito.",
-            bio: "Sou finalista de Engenharia Informática no ISP Katangonji, especializado em desenvolvimento full-stack com foco na criação de produtos digitais com real impacto social.",
+            bio: "Sou finalista de Engenharia Informática no ISP Katangoji, especializado em desenvolvimento full-stack com foco na criação de produtos digitais com real impacto social.",
             projectStart: "Atualmente, desenvolvo a ",
             projectLink: "Nonhande",
             projectEnd: ", uma plataforma de preservação digital da língua Nhaneca-Humbe, onde aplico Next.js, NestJS, Vercel, Render e MongoDB para transformar dados etnolinguísticos em experiências digitais escaláveis.",
