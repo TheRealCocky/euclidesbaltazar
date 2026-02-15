@@ -11,6 +11,17 @@ export default function ProjectsPage() {
 
     const projects = [
         {
+            title: "Nonhande",
+            tag: "Social Impact",
+            description: {
+                en: "Digital preservation platform for the Nhaneca-Humbe language.",
+                pt: "Plataforma de preservação digital para a língua Nhaneca-Humbe."
+            },
+            image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098165/Screen_Shot_2026-02-14_at_20.41.59_ku9zqp.png",
+            tech: ["Next.js", "NestJS", "MongoDB", "Tailwind", "Vercel", "Render", "SupaBase", "Google Analytics", "AWS"],
+            links: { github: "https://github.com/TheRealCocky/nonhande-client", demo: "https://nonhande.vercel.app/" }
+        }
+        ,{
             title: "AngoIA",
             tag: "AI & Fullstack",
             description: {
@@ -22,17 +33,6 @@ export default function ProjectsPage() {
             links: { github: "https://github.com/TheRealCocky/AngoIA", demo: "https://angoia.vercel.app/" }
         },
         {
-            title: "Nonhande",
-            tag: "Social Impact",
-            description: {
-                en: "Digital preservation platform for the Nhaneca-Humbe language.",
-                pt: "Plataforma de preservação digital para a língua Nhaneca-Humbe."
-            },
-            image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098165/Screen_Shot_2026-02-14_at_20.41.59_ku9zqp.png",
-            tech: ["Next.js", "NestJS", "MongoDB", "Tailwind", "Vercel", "Render", "SupaBase", "AWS"],
-            links: { github: "https://github.com/TheRealCocky/nonhande-client", demo: "https://nonhande.vercel.app/" }
-        },
-        {
             title: "LeilaoApp",
             tag: "Real-time Auction",
             description: {
@@ -40,7 +40,7 @@ export default function ProjectsPage() {
                 pt: "Plataforma de leilões em tempo real com sincronização via Socket.io."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098924/Screen_Shot_2026-02-14_at_20.54.52_tabzku.png",
-            tech: ["Next.js", "NestJS", "Prisma", "Socket.io", "Render", "Vercel", "Cloudinary"],
+            tech: ["Next.js", "NestJS", "Prisma", "Socket.io", "Render", "Vercel", "PostgreSQL"],
             links: { github: "https://github.com/TheRealCocky/Leilao-client", demo: "https://leilaoapp.vercel.app/" }
         },
         {
@@ -51,7 +51,7 @@ export default function ProjectsPage() {
                 pt: "Gestão segura de streaming de vídeo com Kafka e Cloudinary."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771099058/Screen_Shot_2026-02-14_at_20.56.53_bpkfkf.png",
-            tech: ["Next.js","NestJS", "Kafka", "Cloudinary", "Prisma","Render", "Vercel"],
+            tech: ["Next.js","NestJS", "Kafka", "Cloudinary", "Prisma","Render", "Vercel", "MongoDB"],
             links: { github: "https://github.com/TheRealCocky/stremaforge-client", demo: "https://streamsentra.vercel.app/" }
         },
         {
@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                 pt: "Plataforma multimédia universitária para gestão de conteúdos educativos."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771099210/Screen_Shot_2026-02-14_at_20.59.39_s9zcjy.png",
-            tech: ["React", "Node.js", "Express", "MongoDB","Render", "Vercel"],
+            tech: ["React", "Node.js", "Express", "Google Drive","Render", "Vercel", "MongoDB"],
             links: { github: "https://github.com/TheRealCocky/palancamedia", demo: "https://palancamedia-frontend.vercel.app/" }
         }
     ]

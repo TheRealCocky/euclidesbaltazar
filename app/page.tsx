@@ -46,7 +46,7 @@ export default function HomePage() {
                         <div className="absolute -inset-1 bg-gradient-to-r from-zinc-200 to-zinc-100 dark:from-zinc-800 dark:to-zinc-900 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                         <Avatar className="w-40 h-40 md:w-56 md:h-56 border-2 border-zinc-200 dark:border-zinc-800 relative bg-white dark:bg-zinc-950 shadow-2xl">
                             <AvatarImage
-                                src="https://res.cloudinary.com/dwp3wuum6/image/upload/v1771086073/C2EFEEC9-FF1B-4F84-8622-6181750026CD_muswri.webp"
+                                src="https://res.cloudinary.com/dwp3wuum6/image/upload/v1771179613/F1C45213-D6C5-4448-BA70-9A89ED5BE735_1_201_a_rvnseu.jpg"
                                 alt="Euclides Baltazar"
                                 className="object-cover"
                             />
