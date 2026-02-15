@@ -40,7 +40,7 @@ export default function AboutPage() {
             skillsTitle: "Stack Tecnológico",
             schools: [
                 {
-                    name: "Instituto Superior Politécnico Katangonji",
+                    name: "Instituto Superior Politécnico Katangoji",
                     degree: "Licenciatura em Engenharia Informática",
                     date: "Previsão Julho 2026"
                 },
