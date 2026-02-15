@@ -163,7 +163,7 @@ export default function ContactPage() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
                             {[
                                 { href: "https://www.linkedin.com/in/euclides-baltazar-456331366/", icon: <FaLinkedin />, label: "LinkedIn", color: "group-hover:text-[#0077b5]" },
-                                { href: "https://github.com/TheRealCocky", icon: <SiGithub size={22} />, label: "GitHub", color: "group-hover:text-white dark:group-hover:text-black" },
+                                { href: "https://github.com/TheRealCocky", icon: <SiGithub size={22} />, label: "GitHub", color: "group-hover:text-black dark:group-hover:text-white" },
                                 { href: "https://wa.me/244945303860", icon: <FaWhatsapp />, label: "WhatsApp", color: "group-hover:text-[#25D366]" },
                                 { href: "tel:+244945303860", icon: <Phone size={22} />, label: content.call, color: "group-hover:text-blue-500" }
                             ].map((link, i) => (
