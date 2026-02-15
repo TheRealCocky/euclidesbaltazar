@@ -18,7 +18,7 @@ export default function ProjectsPage() {
                 pt: "Aplicação Fullstack de IA especializada em Angola via Gemini API, com autenticação e planos de uso."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098699/Screen_Shot_2026-02-14_at_20.51.04_epi69w.png", // Adiciona as fotos nesta rota
-            tech: ["Next.js", "NestJS", "Gemini API", "MongoDB"],
+            tech: ["React", "Node.js", "Express", "Gemini API", "MongoDB","Render", "Vercel"],
             links: { github: "https://github.com/TheRealCocky/AngoIA", demo: "https://angoia.vercel.app/" }
         },
         {
@@ -40,7 +40,7 @@ export default function ProjectsPage() {
                 pt: "Plataforma de leilões em tempo real com sincronização via Socket.io."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098924/Screen_Shot_2026-02-14_at_20.54.52_tabzku.png",
-            tech: ["Next.js", "NestJS", "Prisma", "Socket.io"],
+            tech: ["Next.js", "NestJS", "Prisma", "Socket.io", "Render", "Vercel", "Cloudinary"],
             links: { github: "https://github.com/TheRealCocky/Leilao-client", demo: "https://leilaoapp.vercel.app/" }
         },
         {
@@ -51,7 +51,7 @@ export default function ProjectsPage() {
                 pt: "Gestão segura de streaming de vídeo com Kafka e Cloudinary."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771099058/Screen_Shot_2026-02-14_at_20.56.53_bpkfkf.png",
-            tech: ["Next.js","NestJS", "Kafka", "Cloudinary", "Prisma"],
+            tech: ["Next.js","NestJS", "Kafka", "Cloudinary", "Prisma","Render", "Vercel"],
             links: { github: "https://github.com/TheRealCocky/stremaforge-client", demo: "https://streamsentra.vercel.app/" }
         },
         {
@@ -62,7 +62,7 @@ export default function ProjectsPage() {
                 pt: "Plataforma multimédia universitária para gestão de conteúdos educativos."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771099210/Screen_Shot_2026-02-14_at_20.59.39_s9zcjy.png",
-            tech: ["React", "Node.js", "Express", "MongoDB"],
+            tech: ["React", "Node.js", "Express", "MongoDB","Render", "Vercel"],
             links: { github: "https://github.com/TheRealCocky/palancamedia", demo: "https://palancamedia-frontend.vercel.app/" }
         }
     ]
