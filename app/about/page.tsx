@@ -9,16 +9,16 @@ export default function AboutPage() {
     const t = {
         en: {
             greeting: "Engineering with purpose.",
-            bio: "I am a final-year Computer Engineering student at ISP Katangoji, specializing in full-stack development with a focus on building digital products with real social impact.",
-            projectStart: "Currently, I am developing ",
+            bio: "I am a Full-Stack & AI Engineer and final-year Computer Engineering student at ISP Katangoji, focused on building intelligent digital products with high social impact.",
+            projectStart: "Currently, I am architecting ",
             projectLink: "Nonhande",
-            projectEnd: ", a digital preservation platform for the Nhaneca-Humbe language, where I apply Next.js, NestJS, Vercel, Render and MongoDB to transform complex ethnolinguistic data into scalable digital experiences.",
-            ambition: "My ambition is to bridge the gap between advanced technology and local context, integrating AI through projects like AngoIA to solve problems that matter.",
+            projectEnd: ", a language preservation platform where I implement RAG (Retrieval-Augmented Generation), LlamaIndex, and Whisper to transform oral traditions into scalable intelligent systems.",
+            ambition: "My mission is to master AI Engineering to bridge the gap between advanced technology and the Angolan context, creating solutions that truly matter.",
             educationTitle: "Education",
             skillsTitle: "Technical Stack",
             schools: [
                 {
-                    name: "Institute Polytechnic Katangoji (ISPK)",
+                    name: "Instituto Superior Politécnico Tundavala (ISPT)",
                     degree: "BSc in Computer Engineering",
                     date: "Expected July 2026"
                 },
@@ -31,16 +31,16 @@ export default function AboutPage() {
         },
         pt: {
             greeting: "Engenharia com propósito.",
-            bio: "Sou finalista de Engenharia Informática no ISP Katangoji, especializado em desenvolvimento full-stack com foco na criação de produtos digitais com real impacto social.",
-            projectStart: "Atualmente, desenvolvo a ",
+            bio: "Sou Engenheiro Full-Stack & IA e finalista de Engenharia Informática no ISP Katangoji, focado na criação de produtos digitais inteligentes com real impacto social.",
+            projectStart: "Atualmente, sou o arquiteto da ",
             projectLink: "Nonhande",
-            projectEnd: ", uma plataforma de preservação digital da língua Nhaneca-Humbe, onde aplico Next.js, NestJS, Vercel, Render e MongoDB para transformar dados etnolinguísticos em experiências digitais escaláveis.",
-            ambition: "A minha ambição é unir a tecnologia avançada ao contexto local, integrando IA através de projetos como o AngoIA para resolver problemas reais.",
+            projectEnd: ", uma plataforma de preservação linguística onde implemento RAG (Geracão Aumentada por Recuperação), LlamaIndex e Whisper para transformar tradições orais em sistemas inteligentes escaláveis.",
+            ambition: "A minha missão é dominar a Engenharia de IA para unir tecnologia de ponta ao contexto angolano, criando soluções que resolvem problemas reais.",
             educationTitle: "Formação Académica",
             skillsTitle: "Stack Tecnológico",
             schools: [
                 {
-                    name: "Instituto Superior Politécnico Katangoji",
+                    name: "Instituto Superior Politécnico Tundavala",
                     degree: "Licenciatura em Engenharia Informática",
                     date: "Previsão Julho 2026"
                 },
@@ -56,10 +56,11 @@ export default function AboutPage() {
     const content = lang === 'en' ? t.en : t.pt
 
     const skillCategories = [
-        { name: "Backend", items: ["NestJS", "Node.js", "Fastify", "C# / ASP.NET Core"] },
+        { name: "Backend", items: ["NestJS", "Node.js", "Fastify", "C# / ASP.NET Core","Python"] },
         { name: "Frontend", items: ["Next.js", "Vite + React", "TypeScript", "TailwindCSS", "Figma"] },
         { name: "Database", items: ["MongoDB", "PostgreSQL","Prisma", "Database Admin"] },
         { name: "DevOps", items: ["AWS", "Vercel", "Render", "Docker", "CI/CD", "GitHub Actions"] },
+        { name: "AI", items: ["RAG", "LlamaIndex", "Groq", "Vector Databases", "Hugging Face", "Google Colab", "TTS", "Whisper"] },
     ]
 
     return (

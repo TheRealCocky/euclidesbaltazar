@@ -15,14 +15,14 @@ export default function HomePage() {
     const t = {
         en: {
             hi: "Hi! I'm",
-            role: "Full-Stack Developer",
+            role: "Software & AI Engineer",
             contact: "Get in Touch",
             cv: "Download CV",
             description: "Crafting high-performance applications with modern cloud architectures."
         },
         pt: {
             hi: "Olá! Eu sou o",
-            role: "Desenvolvedor Full-Stack",
+            role: "Engenheiro de Software & IA",
             contact: "Entrar em contacto",
             cv: "Baixar CV",
             description: "Construindo aplicações de alta performance com arquiteturas cloud modernas."
@@ -66,7 +66,9 @@ export default function HomePage() {
                             </h1>
                             <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400 font-light max-w-2xl">
                                 {content.role} <span className="mx-2 text-zinc-300">|</span>
-                                <span className="text-sm md:text-lg font-mono text-zinc-500"> React • Next.js • Node.js • NestJS • TypeScript • MongoDB • PostgreSQL • Prisma • AWS</span>
+                                <span className="text-sm md:text-lg font-mono text-zinc-500">
+  React • Next.js • Node.js • NestJS • TypeScript • Cloud/AWS • AI/RAG • LLMs
+</span>
                             </p>
                         </div>
 

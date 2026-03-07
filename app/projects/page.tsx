@@ -14,11 +14,11 @@ export default function ProjectsPage() {
             title: "Nonhande",
             tag: "Social Impact",
             description: {
-                en: "Digital preservation platform for the Nhaneca-Humbe language.",
-                pt: "Plataforma de preservação digital para a língua Nhaneca-Humbe."
+                en: "A digital preservation platform for the Nyaneka-Humbe language. It leverages RAG (Retrieval-Augmented Generation) and LlamaIndex to create an intelligent knowledge base, featuring TTS and Whisper-based speech recognition for phonetic documentation.",
+                pt: "Plataforma de preservação digital para a língua Nyaneka-Humbe. Utiliza RAG e LlamaIndex para criar uma base de conhecimento inteligente, integrando TTS e reconhecimento de voz via Whisper para documentação fonética e acessibilidade."
             },
             image: "https://res.cloudinary.com/dwp3wuum6/image/upload/v1771098165/Screen_Shot_2026-02-14_at_20.41.59_ku9zqp.png",
-            tech: ["Next.js", "NestJS", "MongoDB", "Tailwind", "Vercel", "Render", "SupaBase", "Google Analytics", "AWS"],
+            tech: ["Next.js", "NestJS", "MongoDB", "Tailwind", "Vercel", "Render", "SupaBase", "Google Analytics", "AWS","RAG", "LlamaIndex", "Groq","Hugging Face", "Google Colab", "TTS", "Whisper"],
             links: { github: "https://github.com/TheRealCocky/nonhande-client", demo: "https://nonhande.vercel.app/" }
         }
         ,{

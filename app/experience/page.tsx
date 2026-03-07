@@ -4,6 +4,18 @@ import { Badge } from "@/components/ui/badge"
 
 const experiences = [
     {
+        company: "J&V SOLUTIONS",
+        role: {
+            en: "Junior Full Stack Developer",
+            pt: "Desenvolvedor Full Stack Júnior"
+        },
+        period: "2026 — Present",
+        description: {
+            en: "Developing end-to-end software solutions, including high-performance interfaces and scalable server-side logic, contributing to the technical growth of the company based in Belas, Luanda.",
+            pt: "Desenvolvimento de soluções de software de ponta a ponta, incluindo interfaces de alta performance e lógica de servidor escalável, contribuindo para o crescimento técnico da empresa sediada em Belas, Luanda."  },
+        skills: ["Next.js","TailwindCSS","Node.js","AWS", "PostgreSQL" ,"Problem Solving", "Professional Ethics"]
+    },
+    {
         company: "ForLearn",
         role: {
             en: "FrontEnd Developer (Internship)",
@@ -16,7 +28,6 @@ const experiences = [
         },
         skills: ["React", "Next.js", "TailwindCSS", "TypeScript", "Agile"]
     },
-    // Aqui podes adicionar a tua experiência de Fullstack (NestJS/AWS) quando quiseres
 ]
 
 export default function ExperiencePage() {
