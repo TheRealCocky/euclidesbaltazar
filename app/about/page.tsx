@@ -18,7 +18,7 @@ export default function AboutPage() {
             skillsTitle: "Technical Stack",
             schools: [
                 {
-                    name: "Instituto Superior Politécnico Tundavala (ISPT)",
+                    name: "Instituto Superior Politécnico Katangoji (ISPK)",
                     degree: "BSc in Computer Engineering",
                     date: "Expected July 2026"
                 },
@@ -40,7 +40,7 @@ export default function AboutPage() {
             skillsTitle: "Stack Tecnológico",
             schools: [
                 {
-                    name: "Instituto Superior Politécnico Tundavala",
+                    name: "Instituto Superior Politécnico Katangoji",
                     degree: "Licenciatura em Engenharia Informática",
                     date: "Previsão Julho 2026"
                 },
