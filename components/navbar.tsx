@@ -62,11 +62,17 @@ export function Navbar() {
                         variant="ghost"
                         size="sm"
                         onClick={() => setLang(lang === "en" ? "pt" : "en")}
-                        className="text-xs font-bold px-2"
+                        className="flex items-center gap-2 px-3 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-all"
                     >
-                        <Languages className="h-4 w-4 md:mr-2" />
-                        <span className="hidden md:inline">{lang.toUpperCase()}</span>
-                        <span className="md:hidden ml-1">{lang.toUpperCase()}</span>
+                        {/* Bandeira dinâmica baseada no idioma ATUAL */}
+                        <span className="text-lg leading-none">
+                       {lang === "en" ? "🇺🇸" : "🇵🇹"}
+                       </span>
+
+                        {/* Texto opcional (escondido no mobile se preferir) */}
+                        <span className="text-xs font-bold uppercase tracking-wider text-zinc-500 dark:text-zinc-400">
+                         {lang}
+                       </span>
                     </Button>
                     <ThemeToggle />
 
