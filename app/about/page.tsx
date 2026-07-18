@@ -20,7 +20,7 @@ export default function AboutPage() {
                 {
                     name: "Instituto Superior Politécnico Katangoji (ISPK)",
                     degree: "BSc in Computer Engineering",
-                    date: "Expected July 2026"
+                    date: "2021 - 2026"
                 },
                 {
                     name: "Medium Institute of Economics (IMEL)",
@@ -42,7 +42,7 @@ export default function AboutPage() {
                 {
                     name: "Instituto Superior Politécnico Katangoji",
                     degree: "Licenciatura em Engenharia Informática",
-                    date: "Previsão Julho 2026"
+                    date: "2021 - 2026"
                 },
                 {
                     name: "Instituto Médio de Economia do Lubango (IMEL)",

@@ -13,7 +13,7 @@ const experiences = [
         description: {
             en: "Developing end-to-end software solutions, including high-performance interfaces and scalable server-side logic, contributing to the technical growth of the company based in Belas, Luanda.",
             pt: "Desenvolvimento de soluções de software de ponta a ponta, incluindo interfaces de alta performance e lógica de servidor escalável, contribuindo para o crescimento técnico da empresa sediada em Belas, Luanda."  },
-        skills: ["Next.js","TailwindCSS","Node.js","AWS", "PostgreSQL" ,"Problem Solving", "Professional Ethics"]
+        skills: ["Next.js","TailwindCSS","Node.js","AWS", "MongoDB" ,"Problem Solving", "Professional Ethics"]
     },
     {
         company: "ForLearn",
